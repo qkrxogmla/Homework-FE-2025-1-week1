@@ -1,0 +1,115 @@
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-top,
+.header-top-left1,
+.header-top-left2,
+.header-top-middle,
+.header-top-right1,
+.header-top-right2,
+.header-bottom,
+.header-bottom-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-top-left2 {
+  justify-content: end;
+  width: 116px;
+}
+.header-top {
+  justify-content: space-between;
+  height: 32px;
+  background: #023b6d;
+  padding: 0 0 0 10px;
+}
+.header-bottom {
+  justify-content: space-between;
+  background-color: rgba(40, 58, 90, 0);
+  padding: 0 0 0 10px;
+  height: 88.5px;
+  padding: 0 200px;
+}
+.header-top-middle {
+  margin-top: -2px;
+}
+.icon {
+  font-size: 22px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.icon1 {
+  font-size: 24px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.icon2 {
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.letter1,
+.letter2 {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.letter1 {
+  margin: -2px 4px 0 4px;
+  font-size: 16px;
+}
+.letter2 {
+  font-size: 13px;
+}
+.header-top-right2 {
+  height: 32px;
+  padding: 0 13px;
+  margin: 0 0 0 16px;
+  background: #00a6eb;
+}
+.header-bottom h1 {
+  color: white;
+  font-family: 'Jost', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+}
+.header-bottom-right p {
+  padding: 18px 15px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.dropdown {
+  padding: 18px 0px 18px 15px;
+}
+.header-bottom-right button {
+  margin: 0 0 0 30px;
+  padding: 8px 25px;
+  color: white;
+  background-color: #47b2e4;
+  border-radius: 50px;
+}
+.header-bottom-right button:hover {
+  background: color-mix(in srgb, #47b2e4, transparent 15%);
+  transition: 0.3s;
+}
+.header-bottom-right {
+  margin-right: 15px;
+  gap: 1px;
+}
+
+.header-bottom.scrolled {
+  background-color: rgba(40, 58, 90, 0.8);
+}

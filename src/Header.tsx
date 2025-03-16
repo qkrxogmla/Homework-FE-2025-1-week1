@@ -8,9 +8,9 @@ function Header() {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 100) {
-        setIsScrolled(true); // 100px 이상 스크롤하면 불투명
+        setIsScrolled(true);
       } else {
-        setIsScrolled(false); // 다시 위로 올라오면 투명
+        setIsScrolled(false);
       }
     };
 
